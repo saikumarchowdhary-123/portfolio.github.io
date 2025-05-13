@@ -1,0 +1,101 @@
+#ultraboost{
+    position: absolute;
+    top: 100%;
+    left: 10%;
+}
+#shop-button{
+     position: absolute;
+     top: 90%;
+     left: 13%;
+     padding: 10px;
+     font-weight: 700;
+     font-size: x-large;
+} 
+
+.hero-section img:hover{
+border: 5px solid rgb(67, 17, 57);
+border-radius: 5px;
+
+}
+#heading{
+    color: brown;
+    text-align:center;
+    font-weight: 900;
+    font-size: xx-large;
+    margin-top:100px;
+    
+}
+.products{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   padding: 35px;
+   justify-content: flex-start;
+    margin: 100px auto;
+}
+.product-cart{
+    background-color:aqua;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0);
+    transition:transform 0.3s ;
+    flex: 1 1 600px; 
+    max-width: 500px; 
+}
+.product-cart:hover{
+    transform: translateY(20px);
+    border: 10px solid palevioletred;
+
+}
+.product-cart img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.product-info{
+padding: 15px;
+flex: 1;
+}
+.product-info h4{
+    font-size: x-large;
+}
+.product-info p{
+    font-size: 30;
+    color: green;
+    margin-bottom: 10px;
+}
+.product-info button{
+    padding: 10px;
+    background-color: darkblue;
+    border: none;
+    border-radius: 9px;
+    font-size: 15px;
+    width: 100%;
+    font-weight: 600;
+}
+.product-info button:hover{
+    background-color: cornflowerblue;
+}
+#shoe1:hover{
+    content: url(https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/f982464779ee433cbc673f221a5a4589_9366/ULTRABOOST_1.0_SHOES_Blue_ID5935_HM3_hover.jpg);
+}
+#shoe2:hover{
+    content: url(https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/86e4da534a204d49aad1dc804a4d5553_9366/ULTRABOOST_1.0_SHOES_Grey_IE8976_HM3_hover.jpg );
+}
+
+#shoe3:hover{
+    content: url(https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/bf0643803fc04658a7171fbf80662a0d_9366/ULTRABOOST_1.0_SHOES_White_JH9212_HM3_hover.jpg );
+}
+
+#shoe4:hover{
+    content: url(https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/8f859bb26bcb4c5d8eb2adaa00b9a91e_9366/Response_CL_Shoes_White_GZ1562_02_standard_hover.jpg );
+}
+
+#shoe5:hover{
+    content: url(https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/8ccc20055e044c668334e31e6fbe6ef5_9366/F50_League_Firm-Multi-Ground_Boots_Black_IE3181_01_standard_hover.jpg);
+}
+#shoe6:hover{
+    content: url(https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/1f3f39440b57488f8d1ac39b4d5a8720_9366/Racer_TR23_Shoes_Black_IG7323_010_hover_standard.jpg);
+}
+
+
+
